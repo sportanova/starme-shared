@@ -1,0 +1,17 @@
+name:           starme-shared
+version:        0.1
+cabal-version:  >=1.8
+build-type:     Simple
+author:         sportanova
+
+library
+  hs-source-dirs:  src
+  build-depends:   base >=4.7.0.1,
+                   cassandra-cql ==0.4.0.1,
+                   text,
+                   aeson,
+                   bytestring,
+                   time
+  ghc-options:     -Wall
+  other-modules:   Models
+
