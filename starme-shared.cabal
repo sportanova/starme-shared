@@ -13,5 +13,7 @@ library
                    bytestring,
                    time
   ghc-options:     -Wall
-  other-modules:   Models
+  exposed-modules: Cassandra,
+                   Models
+  other-modules:
 
